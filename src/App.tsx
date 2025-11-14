@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <main className='flex justify-center w-full bg-chatbot h-screen bg-cover bg-center'>
+      <main className='flex justify-center w-full bg-chatbot h-dvh bg-cover bg-center'>
         <div className='w-xl mx-12 flex flex-col gap-4  mt-4 mb-8'>
           <ChatMessages
             chatMessages={chatMessages}
