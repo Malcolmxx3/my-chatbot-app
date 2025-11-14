@@ -20,8 +20,12 @@ function App() {
     localStorage.setItem('messages', JSON.stringify(chatMessages))
   }, [chatMessages])
 
+  const title = `${chatMessages.length} Messages`
+
   return (
     <>
+      <link rel="icon" type="image/svg+xml" href='robot-icon.png' />
+      <title>{title}</title>
       <main className='flex justify-center w-full bg-chatbot h-dvh bg-cover bg-center'>
         <div className='w-xl mx-12 flex flex-col gap-4  mt-4 mb-8'>
           <ChatMessages
